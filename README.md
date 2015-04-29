@@ -51,7 +51,7 @@ npm install -g express
     $ node app
 
 
-2. **plivo-node**: It is a Node.js helper can be used to make REST API calls and can also be used to control incoming calls and messages.
+1. **plivo-node**: It is a Node.js helper can be used to make REST API calls and can also be used to control incoming calls and messages.
 
 Installation
 ---------------
@@ -88,7 +88,7 @@ if(flag)
 }
 
 ```
-2. 	This url points to a xml document which shows the action to be performed when the user lifts the call
+1. 	This url points to a xml document which shows the action to be performed when the user lifts the call
 
 ```sh
 
