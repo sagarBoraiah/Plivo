@@ -4,8 +4,8 @@
 
 A pluggable component that can be used in any web app built using Express framework which will do the following when an error occurs (or exception thrown) in any part of the application:
 
-*If the pluggable component is configured with SMS, it should send an SMS to a pre-specified phone number with the error text (< 160chars).
-*If the pluggable component is configured with Call, it should make a phone call to a pre-specified phone number and say the error message when the call is picked up by the person.
+1If the pluggable component is configured with SMS, it should send an SMS to a pre-specified phone number with the error text (< 160chars).
+2If the pluggable component is configured with Call, it should make a phone call to a pre-specified phone number and say the error message when the call is picked up by the person.
 
 ## How do I get started?
 
@@ -30,7 +30,7 @@ Point your browser to http://localhost:4731
 
 ## Prerequisites
 
-1. ExpressJS: Express is a Node.js web application framework that provides a robust set of features for web and mobile applications.
+1. **ExpressJS**: Express is a Node.js web application framework that provides a robust set of features for web and mobile applications.
 To install Express first update your package.json file and run the npm installation.
 
 Installation
@@ -49,7 +49,7 @@ npm install -g express
     $ node app
 
 
-1. plivo-node: It is a Node.js helper can be used to make REST API calls and can also be used to control incoming calls and messages.
+2. **plivo-node**: It is a Node.js helper can be used to make REST API calls and can also be used to control incoming calls and messages.
 
 Installation
 ---------------
