@@ -4,8 +4,10 @@
 
 A pluggable component that can be used in any web app built using Express framework which will do the following when an error occurs (or exception thrown) in any part of the application:
 
-1If the pluggable component is configured with SMS, it should send an SMS to a pre-specified phone number with the error text (< 160chars).
-2If the pluggable component is configured with Call, it should make a phone call to a pre-specified phone number and say the error message when the call is picked up by the person.
+1. If the pluggable component is configured with SMS, it should send an SMS to a pre-specified phone number with the error text (< 160chars).
+
+
+2. If the pluggable component is configured with Call, it should make a phone call to a pre-specified phone number and say the error message when the call is picked up by the person.
 
 ## How do I get started?
 
